@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nikhil Kumar Singh</title>
+    <meta name="description" content="nikhiliated">
+    <meta name="keywords" content="nikhiliated">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!-- START: header -->
+  
+  <div class="probootstrap-loader"></div>
+
+  <header role="banner" class="probootstrap-header">
+    <div class="container">
+        <a href="index.html" class="probootstrap-logo">Nikhil<span>.</span></a>
+        
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+          <ul class="probootstrap-main-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#aesthetics">Aesthetics</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="probootstrap-right-nav hidden-xs">
+            <li><a href="https://github.com/nikhiliated"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://medium.com/@nikhiliated"><i class="fab fa-medium"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/nikhiliated/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/nikhiliated"><i class="fab fa-facebook-f"></i></a></li>
+          </ul>
+          <div class="extra-text visible-xs"> 
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            <h5>Address</h5>
+            <p>HJB Hall of Residence, IIT Kharagpur, India</p>
+            <h5>Connect</h5>
+            <ul class="social-buttons">
+              <li><a href="https://github.com/nikhiliated"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://medium.com/@nikhiliated"><i class="fab fa-medium"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/nikhiliated/"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/nikhiliated"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+  </header>
+  <!-- END: header -->
+  <section class="probootstrap-slider flexslider">
+    <ul class="slides">
+      <li style="background-image: url(img/slider.jpg);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="slides-text probootstrap-animate">
+                <h2>Nikhil Kumar Singh.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li style="background-image: url(img/slider_2.jpg);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="slides-text probootstrap-animate">
+                <h4>He writes. He sketches.</h4>
+                <h4>Codes  once in a while.</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- END: slider  -->
+
+  <div class="probootstrap-section" id= "projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
+          <h2 class="mb20">PROJECTS</h2>
+          <div class="panel-group probootstrap-panel" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h3 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                    Narrator | Neural Network
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p>• A neural network system implemented in Tensorflow, that generates captions for a given image. Convolutional Neural Network is used to extract visual features from image, and a Long Short Term Memory Neural Network to decode these features into a sentence.</p>
+                  <p>• The work is inspired by the paper "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention" by Xu et al. (ICML2015).</p>
+
+                  
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Tyrion | A messenger bot
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <p>• A personal assistant bot that leverages use of Wit.ai to convert user inputs to appropriate intents and retrieves information from various APIs.</p>
+                  <p>• Currently, it can tell definitions of words, show video results for queries, tell time and weather in differennt cities, among few other functionalities.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Orbit | User login system
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <p>• A web application that lets user register and make their own profile.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- END panel-group -->
+        </div>
+        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
+
+          <figure>
+            <div class="probootstrap-animate">
+              <img src="img/photo_1.jpg" alt="IITKGP" class="img-responsive img-border">
+            </div>
+            <figcaption>This is a caption. Far far away, behind the word mountains.</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END section -->
+  
+  
+  <div class="container">
+    <div class="probootstrap-cta probootstrap-animate" id="experiences" data-animate-effect="fadeInLeft">
+      <h2 class="mb20">EXPERIENCES</h2>
+
+      <h4>Research Consultant | WorldQuant | October, 2018 - Present</h4>
+<p>• Implemented a simulator, which takes radio signals emitted by aerial targets as inputs and gives their coordinates, making use of Time Difference of Arrival algorithm, which is used in passive detection of aerial targets. A passive detection approach has not been implemented in India as of now.</p>
+
+<h4>Research Intern | Defence Research And Development Organisation | May 01, 2018 - June 30 2018</h4>
+<p>• Implemented a simulator, which takes radio signals emitted by aerial targets as inputs and gives their coordinates, making use of Time Difference of Arrival algorithm, which is used in passive detection of aerial targets. A passive detection approach has not been implemented in India as of now.</p>
+<p>• Contributed to research work aimed at prioritization of receivers for minimizing error boundary in object localization using Time Difference of Arrival algorithm, under the guidance of Mr. Sourav Kaity, Scientist-E, Group Head (RTDP).</p>
+
+<h4>ATM Location Optimization</h4>
+<p>• Worked with a startup towards optimization of atm locations for  a particular city.</p>
+
+<h4>Web Team Member | Kshitij IIT Kharagpur | July 2016 - Feb 2017</h4>
+<p>• As a member of technology team for Asia's largest Techno-management fest, Kshitij, I was responsible for working on and maintaining various portals to conduct online events. I was also responsible for taking care of the frontend aspect of Kshiitj's website.</p>
+
+<h4>Design Team Member | Technology Literary Society, IIT Kharagpur | Aug 2015- Jan 2017</h4>
+<p>As a design team member of Technology Literary Society , I was responsible for coming up with creative ideas and designing them for the society's articles.</p>
+
+<h4>Transfer and Management of Rural Technology</h4>
+<p>• Surveyed the livelihood and socio-economic status of households in the nearby village, Balrampur and organised guest lectures by IITKGP professors.</p>
+<p>• Introduced a new technology to farmers where they can do fishing and agriculture at the same time and both the processes will complement each other.</p>
+    </div>
+  </div>
+
+  <!-- END section cta -->
+
+  <section class="probootstrap-section" id= "aesthetics">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading probootstrap-animate">
+          <h2>Aesthetics</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card">
+            <div class="probootstrap-card-media">
+              <img src="img/aes_1.jpg" class="img-responsive img-border">
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">APJ</h2>
+              <p class="category">Wall Painting</p>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card">
+            <div class="probootstrap-card-media">
+              <img src="img/aes_2.jpg" class="img-responsive img-border">
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Grit</h2>
+              <p class="category">Art</p>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card">
+            <div class="probootstrap-card-media">
+              <img src="img/aes_3.jpg" class="img-responsive img-border" >
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Pakeezah</h2>
+              <p class="category">Art</p>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+  <footer class="probootstrap-footer">
+    <div class="container" id= "contact">
+      <div class="row">
+
+        <div class="col-md-4 col-md-push-1">
+            <p>&copy; 2019, Nikhil Kumar Singh</p>
+            <ul class="probootstrap-social">
+              <li><a href="https://github.com/nikhiliated"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://medium.com/@nikhiliated"><i class="fab fa-medium"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/nikhiliated/"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/nikhiliated"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-8 col-md-push-1">
+          <ul class="with-icon colored">
+            <li><i class="fas fa-map-marker-alt"></i> <span>HJB Hall of Residence, IIT Kharagpur, India</span></li>
+            <li><i class="fas fa-paper-plane"></i><span>nikhiliated@gmail.com</span></li>
+            <li><i class="fas fa-paper-plane"></i></i><span>nikhil@iitkgp.ac.in</span></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+  </div>
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  
+  </body>
+</html>
